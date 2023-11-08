@@ -1,0 +1,42 @@
+
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+#projects {
+    background-color: #e2edff;
+    color: black;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+nav ul li {
+    transition: all ease .3s;
+}
+
+nav ul li:hover {
+    background-color: #0099ff;
+    border: 3px solid #0099ff;
+    border-radius: 20px;
+}
+
+.card-body {
+    color: white;
+}
+
+
+input[type="email"]:invalid {
+    background-color: tomato;
+}               
+        
+input[type="text"]:invalid {
+    background-color: tomato;
+}                   
+
+input:invalid {
+    box-shadow: 0 0 3px 5px rgba(255, 0, 0, .2);
+}
